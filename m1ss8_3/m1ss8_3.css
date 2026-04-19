@@ -1,0 +1,30 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+p,
+.bot {
+    padding: 10px;
+}
+
+footer {
+    background-color: #222222;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bot {
+    color: white;
+    text-decoration: none;
+    width: calc(50% - 50px);
+}
+
+@media screen and (max-width: 375px) {
+    .bot {
+        width: 100%;
+    }
+}
